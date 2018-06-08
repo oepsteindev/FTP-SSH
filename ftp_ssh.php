@@ -1,5 +1,5 @@
 
-
+<?php
 public function uploadFTPDirectory($source, $destination, $type, $stream = true)
     {
         ftp_pasv($this->con, true);
@@ -134,3 +134,4 @@ public function uploadFTPDirectory($source, $destination, $type, $stream = true)
             return false;
         }
     }
+?>
